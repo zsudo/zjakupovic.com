@@ -1,0 +1,83 @@
+//Configuration
+//
+// Defines the usable variables of the design:
+// 1. Theme Color
+// 2. Link Elements
+// 3. Grid and Container Definitions
+// 4. Typography
+// 5. Buttons
+// 6. Forms & Validation
+// 7. Alerts & Warnings
+// 8. Printing
+
+
+// Theme Color
+
+$white:       #ffffff  !default;
+$black:       #1E1E20  !default;
+$red:         #DC3522;
+$gray:        #2A2C2B;
+$neutral:     #374140;
+$pale-yellow: #D9CB9E;
+
+$colors: (
+  "white":        $white,
+  "black":        $black,
+  "red":          $red,
+  "gray":         $gray,
+  "neutral":      $light-gray,
+  "pale-yellow":  $pale-yellow
+);
+
+$primary:
+$secondary:
+$success:
+$fail:
+$warning:
+$disabled:
+
+$theme (
+  "primary":    $primary
+  "secondary":  $secondary
+  "success":    $success,
+  "fail":       $fail,
+  "warning":    $warning,
+  "disabled":   $disabled
+)
+
+// Link Elements
+
+$link-color:              theme("primary") !default;
+$link-decoration:         none !default;
+$link-hover-color:        darken($link-color, 15%) !default;
+$link-hover-decoration:   underline !default;
+
+// Grid and Container Definitions
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
+
+// Typography
+
+// Buttons
+
+// Forms & Validation
+
+// Alerts & Warnings
+
+// Printing

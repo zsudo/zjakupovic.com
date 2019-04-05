@@ -1,0 +1,14 @@
+{
+  "name": "Zlatan Jakupovic Website",
+  "short_name": "ZJ Resume",
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }]
+}

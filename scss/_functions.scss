@@ -1,0 +1,21 @@
+// Functions
+//
+// Functions for code evaluation for variables, maps, and mixins
+//
+//
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+  @warn "Color `#{$key}` nonexistant in $color.";
+  @return null;
+}
+
+@function theme($key) {
+  @if map-has-key($theme, $key) {
+    @return map-get($theme, $key);
+  }
+  @warn "Color `#{$key}` nonexistant in $theme.";
+  @return null;
+}
